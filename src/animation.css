@@ -1,0 +1,31 @@
+.container-icon:hover .icon {
+  color: #0284c7 !important;
+}
+
+
+.circle {
+  position: relative;
+  top: -25%;
+  left: 75%;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  background-color: #0284c7;
+  border-radius: 50%;
+  animation: spin 6s linear infinite;
+}
+
+
+
+  @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
+    #canvas{
+      width: 400px !important;
+      height: 400px !important;
+      
+    }
