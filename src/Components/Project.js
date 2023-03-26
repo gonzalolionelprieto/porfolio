@@ -1,4 +1,5 @@
-// Componente Project
+import { IoLogoGithub } from "react-icons/io5";
+
 function Project({ project }) {
   const {
     title,
@@ -41,15 +42,16 @@ function Project({ project }) {
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className=" text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
+            className="container-icon text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
           >
             Github
+            <IoLogoGithub color="#292929" fontSize="2.5em" className="html" />
           </a>
           <a
             href={liveDemoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className=" text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
+            className="container-icon text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
           >
             Live Demo
           </a>

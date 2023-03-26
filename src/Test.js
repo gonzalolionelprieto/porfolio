@@ -7,12 +7,12 @@ const Test = () => {
     <>
       <Canvas id="canvas">
         <Suspense fallback={null}>
-          <OrbitControls enableZoom={false} />
+          <OrbitControls enableZoom={false} autoRotate={true}/>
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
           <Sphere args={[1, 100, 200]} scale={2.5}>
             <MeshDistortMaterial
-              color="#292929"
+              color="#0284c7"
               attach="material"
               distort={0.5}
               speed={3}
