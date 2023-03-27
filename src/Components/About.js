@@ -6,7 +6,7 @@ export default function About({ img, title, description }) {
       <div className="bg-white  md:h-auto md:w-full  rounded-3xl p-3  ">
         <img className="w-full rounded-xl " src={img} alt={title} />
 
-        <div className="circle">
+        <div className="circle sm:hidden md:flex">
           <img src="https://stefantopalovicdev.vercel.app/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg" alt="" />
         </div>
       </div>

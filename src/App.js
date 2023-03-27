@@ -8,7 +8,7 @@ import Portfolio from "./Components/Portfolio";
 import "../src/animation.css";
 function App() {
   return (
-    <div className="bg-white ">
+    <div className="bg-white w-full">
       <Navbar />
       <Container>
         
@@ -37,7 +37,7 @@ function App() {
               title: "CAR RENTAL",
               description:
                 "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/4155030/file/original-5053a06e2f183c6a8faded17c4270da8.jpg?compress=1&resize=1200x900",
+              img: "https://cdn.dribbble.com/userupload/4086941/file/original-5dbaff651a1b501ea7251a530d502493.jpg?compress=1&resize=1200x900",
               technologies: ["React", "Tailwind"],
               githubLink: "https://github.com/stefvndev/car-rental",
               liveDemoLink: "https://car-rental-ten.vercel.app/",
@@ -45,10 +45,10 @@ function App() {
             },
             {
               id: "2",
-              title: "Cars",
+              title: "Gym",
               description:
                 "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/4155030/file/original-5053a06e2f183c6a8faded17c4270da8.jpg?compress=1&resize=1200x900",
+              img: "https://cdn.dribbble.com/userupload/3384714/file/original-ed7bc32e50db20b0685280f29c3ea398.png?compress=1&resize=1200x900",
               technologies: ["React", "Tailwind"],
               githubLink: "https://github.com/stefvndev/car-rental",
               liveDemoLink: "https://car-rental-ten.vercel.app/",
@@ -56,10 +56,10 @@ function App() {
             },
             {
               id: "3",
-              title: "Cars",
+              title: "Crypto",
               description:
                 "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/4155030/file/original-5053a06e2f183c6a8faded17c4270da8.jpg?compress=1&resize=1200x900",
+              img: "https://cdn.dribbble.com/userupload/4266473/file/original-5165b6634955e3a7adfa6e19f29339bb.png?compress=1&resize=1200x900",
               technologies: ["React", "Tailwind"],
               githubLink: "https://github.com/stefvndev/car-rental",
               liveDemoLink: "https://car-rental-ten.vercel.app/",
