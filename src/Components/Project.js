@@ -1,4 +1,8 @@
 import { IoLogoGithub } from "react-icons/io5";
+import { FiExternalLink } from "react-icons/fi";
+
+
+
 
 function Project({ project }) {
   const {
@@ -12,7 +16,7 @@ function Project({ project }) {
   } = project;
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden grid md:grid-rows-1 md:grid-cols-2 md:gap-4 py-5">
+    <div className=" bg-white rounded-lg shadow-md overflow-hidden grid md:grid-rows-1 md:grid-cols-2 md:gap-4 py-5 my-5">
       <div
         className={`bg-white  md:h-auto md:w-full  relative rounded-3xl p-3  ${
           Reverse ? "md:order-last" : ""
@@ -37,23 +41,23 @@ function Project({ project }) {
             </span>
           ))}
         </div>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex justify-center items-center w-full">
           <a
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="container-icon text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
+            className="container-icon text-black my-2 rounded-lg hover:scale-125  duration-300 flex justify-center items-center"
           >
-            Github
-            <IoLogoGithub color="#292929" fontSize="2.5em" className="html" />
+            <IoLogoGithub color="#292929" fontSize="2em" className="" />
           </a>
+
           <a
             href={liveDemoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="container-icon text-black px-4 py-2 rounded-lg hover:text-cyan-600 transition-colors duration-300"
+            className="container-icon text-black my-2 mx-3 rounded-lg hover:scale-125  duration-300 flex justify-center items-center"
           >
-            Live Demo
+            <FiExternalLink color="#292929" fontSize="2em" className="" />
           </a>
         </div>
       </div>

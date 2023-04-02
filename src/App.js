@@ -1,21 +1,24 @@
 import React from "react";
-import About from "./Components/About";
+import { BrowserRouter as Router } from "react-router-dom";
 
+import About from "./Components/About";
 import Container from "./Components/Container";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Portfolio from "./Components/Portfolio";
 import "../src/animation.css";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+
 function App() {
   return (
-    <div className="bg-white w-full">
+    <Router>
       <Navbar />
       <Container>
-        
         <Hero
           name={"Front-End React Developer"}
           greeting={
-            "Hi, I'm Stefan Topalovic. A passionate Front-end React Developer based in Belgrade, Serbia. "
+            "Hola, soy Gonzalo Prieto. Un apasionado desarrollador Front-end con React  "
           }
           imageSrc={"./logo.svg"}
         />
@@ -24,9 +27,9 @@ function App() {
           img={
             "https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
           }
-          title={"A dedicated Front-end Developer based in Belgrade, Serbia"}
+          title={"Un desarrollador Front-end dedicado"}
           description={
-            "As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications."
+            "Como desarrollador Front-End Junior, poseo  habilidades en HTML, CSS, JavaScript, React, Tailwind y SCSS. Me especializo en diseñar y mantener sitios web responsive que ofrecen una experiencia de usuario fluida. Mi experiencia radica en crear interfaces dinámicas y atractivas mediante un código limpio y optimizado.Además, soy un colaborador en equipo que disfruta de trabajar con grupos multifuncionales para crear aplicaciones web de alta calidad."
           }
         />
 
@@ -67,8 +70,10 @@ function App() {
             },
           ]}
         />
-      </Container>
-    </div>
+        <Contact />
+      </Container>{" "}
+      <Footer />
+    </Router>
   );
 }
 
