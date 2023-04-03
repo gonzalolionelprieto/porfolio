@@ -14,10 +14,10 @@ export default function About({ img, title, description }) {
           
         </div>
 
-        <div className="p-2 flex flex-col justify-center items-center ">
+        <div className=" flex flex-col justify-center items-center ">
           <h5 className="md:w-full text-xl font-bold text-sky-600">About me</h5>
-          <h3 className="font-bold text-2xl my-4">{title}</h3>
-          <p className="text-md ">{description}</p>
+          <h3 className="w-full font-bold text-2xl my-4">{title}</h3>
+          <p className="text-md w-full">{description}</p>
         </div>
       </div>
     </div>

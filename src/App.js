@@ -37,35 +37,37 @@ function App() {
           projects={[
             {
               id: "1",
-              title: "CAR RENTAL",
+              title: "Rick and Morty",
               description:
-                "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/4086941/file/original-5dbaff651a1b501ea7251a530d502493.jpg?compress=1&resize=1200x900",
+                "El sitio web de Rick and Morty ha sido creado con React y utiliza fetch para conectarse a una API de datos. También utilice Tailwind para darle un diseño atractivo. Hemos utilizado los hooks de React para crear una base de código más eficiente y reutilizable. Si eres fanático de la serie animada, ¡no dudes en echar un vistazo!",
+              img: "https://portafolio-gonzalo-prieto.netlify.app/img/1.png",
               technologies: ["React", "Tailwind"],
-              githubLink: "https://github.com/stefvndev/car-rental",
-              liveDemoLink: "https://car-rental-ten.vercel.app/",
+              githubLink:
+                "https://github.com/gonzalolionelprieto/rick-and-morty-app",
+              liveDemoLink: "https://rick-and-morty-gp.netlify.app/",
               Reverse: false,
             },
             {
               id: "2",
-              title: "Gym",
+              title: "Adidas Ozweego",
               description:
-                "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/3384714/file/original-ed7bc32e50db20b0685280f29c3ea398.png?compress=1&resize=1200x900",
-              technologies: ["React", "Tailwind"],
-              githubLink: "https://github.com/stefvndev/car-rental",
-              liveDemoLink: "https://car-rental-ten.vercel.app/",
+                "En el proyecto del sitio web de Adidas Ozweego  utilicé HTML, CSS y JavaScript para crear una plataforma visualmente atractiva y moderna. También integré la biblioteca de JS Slick Full para crear un atractivo slider. La página ofrece información detallada sobre la zapatilla. Fue un proyecto emocionante y estoy orgulloso del resultado final.",
+              img: "https://portafolio-gonzalo-prieto.netlify.app/img/2.jpg.png",
+              technologies: ["Html", "Css", "Javascript"],
+              githubLink:
+                "https://github.com/gonzalolionelprieto/adidas-ozweego",
+              liveDemoLink: "https://adidas-ozweego.netlify.app/",
               Reverse: true,
             },
             {
               id: "3",
-              title: "Crypto",
+              title: "Arte Mad",
               description:
-                "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-              img: "https://cdn.dribbble.com/userupload/4266473/file/original-5165b6634955e3a7adfa6e19f29339bb.png?compress=1&resize=1200x900",
-              technologies: ["React", "Tailwind"],
-              githubLink: "https://github.com/stefvndev/car-rental",
-              liveDemoLink: "https://car-rental-ten.vercel.app/",
+                "Arte Mad es una empresa de muebles y carpintería que destaca por su enfoque en la creación de espacios personalizados y adaptados a las necesidades de sus clientes. En este proyecto se utilizó HTML, CSS ,React y Bootstrap para diseñar y desarrollar un sitio web moderno y atractivo",
+              img: "https://portafolio-gonzalo-prieto.netlify.app/img/5.png",
+              technologies: ["Html", "Css", "React", "Bootstrap"],
+              githubLink: "https://github.com/gonzalolionelprieto/arte-madera",
+              liveDemoLink: "https://arte-mad.netlify.app/",
               Reverse: false,
             },
           ]}

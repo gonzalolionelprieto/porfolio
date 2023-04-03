@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <div id="contact" className="h-screen md:h-full flex flex-col justify-center items-center">
       <div className="md:w-full flex flex-col justify-center md:justify-start mx-auto md:mr-auto">
-        <h5 className="text-xl font-bold text-sky-600">Contact</h5>
-        <h3 className="font-bold text-2xl my-4">Don't be shy! Hit me up!</h3>
+        <h5 className="text-xl font-bold text-sky-600">Contacto</h5>
+        <h3 className="font-bold text-2xl my-4">No dudes en contactarme!</h3>
       </div>
       <div className="w-full flex flex-col md:flex-row justify-start items-center flex-wrap">
         <div className=" flex flex-col md:flex-row justify-center items-center m-5">
@@ -19,7 +19,7 @@ export default function Contact() {
             ></FaMapMarkedAlt>
           </div>
           <div className="flex flex-col justify-center   md:justify-start items-center md:items-start">
-            <h3 className="md:text-start">Location</h3>
+            <h3 className="md:text-start">Lugar</h3>
             <h3 className="text-left">Buenos Aires, Argentina</h3>
           </div>
         </div>
