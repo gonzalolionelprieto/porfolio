@@ -11,7 +11,7 @@ const variants = {
 function NavItem({ to, children, onClick }) {
   return (
     <div
-      className="px-3 py-2 text-bold  text-lg  font-medium text-gray-800  hover:text-gray-900  focus:outline-none focus:text-gray-900  transition duration-150 ease-in-out cursor-pointer"
+      className="px-3 py-2 text-bold  text-lg  font-medium text-gray-800 dark:text-slate-100  hover:text-gray-900 dark:hover:text-fuchsia-400 focus:outline-none focus:text-gray-900  transition duration-150 ease-in-out cursor-pointer"
       onClick={(e) => onClick(e, to)}
     >
       {children}
@@ -33,12 +33,12 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-gray-100  shadow-lg  m-0 p-0  z-50 w-full fixed">
+    <nav className="dark:bg-slate-950/75 backdrop-blur-md  shadow-lg  dark:shadow-none m-0 p-0  z-50 w-full fixed">
       <div className=" m-0 ">
         <div className="flex items-center justify-between h-20 px-9">
           <div className="flex items-center">
-            <a href="/#" className="flex-shrink-0 text-xl font-bold  ">
-              Gonzalo<span className="text-sky-600">.Dev</span>
+            <a href="/#" className="flex-shrink-0 text-xl font-bold  dark:text-slate-100">
+              Gonzalo<span className="text-fuchsia-400">.Dev</span>
             </a>
           </div>
           <button className="md:hidden ml-auto" onClick={handleMenuToggle}>

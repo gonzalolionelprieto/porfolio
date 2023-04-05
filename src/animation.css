@@ -1,4 +1,18 @@
+.background-gradient {
+  background-attachment: fixed;
+  background-image: url(../src/Components/Img/bg\ .jpeg);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
 body{
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
   box-sizing: border-box !important;
   width: 100% !important;
   background-color: #f1f1f1;
@@ -26,16 +40,8 @@ body{
     justify-content: center;
     opacity: 1;
     transition: all 1s ease-in-out;
-  }
-  
-  
-  
+  } 
 }
-
-
-
-
-
 
 .container-icon:hover .icon {
   color: #0284c7 !important;

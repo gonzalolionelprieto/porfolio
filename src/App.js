@@ -18,7 +18,7 @@ function App() {
         <Hero
           name={"Front-End React Developer"}
           greeting={
-            "Hola, soy Gonzalo Prieto. Un apasionado desarrollador Front-end con React  "
+            "Hola, soy Gonzalo Prieto y este es mi portfolio en el cual voy a demostrar mis habilidades como programador Front-end con React "
           }
           imageSrc={"./logo.svg"}
         />

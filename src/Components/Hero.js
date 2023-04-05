@@ -1,27 +1,27 @@
 import React from "react";
 import Test from "../Test";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoLinkedin, IoReader } from "react-icons/io5";
 import Slack from "./Slack";
 
 function Hero({ name, greeting }) {
   return (
-    <div className="h-full md:h-screen flex flex-col  md:flex-col  items-center justify-center  mt-12 md:mt-0 ">
+    <div className="h-full md:h-screen flex flex-col  md:flex-col  items-center justify-center  mt-12 md:mt-0  ">
       <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center   py-10 md:py-2 text-center md:text-left">
-        <div className="w-11/12 md:w-6/12  ">
-          <h1 className=" w-full font-bold text-5xl leading-tight text-gray-900 ">
+        <div className="w-11/12   ">
+          <h1 className=" w-10/12 font-bold text-5xl leading-tight text-gray-900 dark:text-slate-100 dark:md:border-spacing-3 dark:border-b-2 dark:border-b-fuchsia-400 py-4">
             {name}
           </h1>
 
-          <p className=" w-full mt-4 text-xl font-semibold text-gray-800 ">
+          <p className=" w-full md:w-10/12  text-xl font-semibold text-gray-800 dark:text-slate-100   py-5">
             {greeting}
           </p>
-          <div className="w-full flex flex-row md:justify-start  items-center ">
+          <div className="w-4/12 flex flex-row md:justify-start  items-center  md:border-spacing-3 dark:border-t-2 dark:border-t-fuchsia-400">
             <a
               href="/#"
               className="container-icon py-5  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
             >
               <IoLogoLinkedin
-                color="#292929"
+                color="#f1f5f9"
                 fontSize="2.5em"
                 className="icon"
               />
@@ -30,7 +30,7 @@ function Hero({ name, greeting }) {
               href="/#"
               className="container-icon py-5 mx-3 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
             >
-              <IoLogoGithub color="#292929" fontSize="2.5em" className="html" />
+              <IoReader color="#f1f5f9" fontSize="2.5em" className="html" />
             </a>
           </div>
         </div>

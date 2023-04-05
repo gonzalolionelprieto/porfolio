@@ -13,7 +13,7 @@ const Test = () => {
           <directionalLight position={[3, 2, 1]} />
           <Sphere args={[1, 100, 200]} scale={2.5}>
             <MeshDistortMaterial
-              color="#0284c7"
+              color="#d03be6"
               attach="material"
               distort={0.5}
               speed={3}
