@@ -2,6 +2,7 @@ import React from "react";
 import Test from "../Test";
 import { IoLogoLinkedin, IoReader } from "react-icons/io5";
 import Slack from "./Slack";
+import { Link } from "react-router-dom";
 
 function Hero({ name, greeting }) {
   return (
@@ -16,22 +17,21 @@ function Hero({ name, greeting }) {
             {greeting}
           </p>
           <div className="w-4/12 flex flex-row md:justify-start  items-center  md:border-spacing-3 dark:border-t-2 dark:border-t-fuchsia-400">
-            <a
-              href="/#"
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/gonzalolionelprieto/"
               className="container-icon py-5  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
             >
-              <IoLogoLinkedin
-                color="#f1f5f9"
-                fontSize="2.5em"
-                className="icon"
-              />
-            </a>
-            <a
+              <IoLogoLinkedin fontSize="2.5em" className="icon" />
+            </Link>
+            <Link
+              target="_blank"
+              download="/src/Components/Img/Cv/Curriculum Gonzalo Prieto.pdf"
               href="/#"
-              className="container-icon py-5 mx-3 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
+              className="container-icon ml-3 py-5  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
             >
-              <IoReader color="#f1f5f9" fontSize="2.5em" className="html" />
-            </a>
+              <IoReader fontSize="2.5em" className="icon" />
+            </Link>
           </div>
         </div>
         <div className="w-11/12 md:w-6/12  flex justify-center items-center">

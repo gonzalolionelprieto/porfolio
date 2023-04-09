@@ -43,17 +43,16 @@ body{
   } 
 }
 
+.container-icon .icon {
+  color: #cb71f1;  /* fallback for old browsers */
+  
+}
+
 .container-icon:hover .icon {
-  color: #0284c7 !important;
+  color: #834d9b;  /* fallback for old browsers */
+  
 }
 
-.container-icon:hover .html {
-  color: #e34f26 !important;
-}
-
-.container-icon:hover .javascript {
-  color: #f7df1e !important;
-}
 
 
 
