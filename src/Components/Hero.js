@@ -26,7 +26,9 @@ function Hero({ name, greeting }) {
             </Link>
             <Link
               target="_blank"
-              download="/src/Components/Img/Cv/Curriculum Gonzalo Prieto.pdf"
+              to={
+                "https://drive.google.com/file/d/1Nljq-XUTE1D9gLpQZQJc6Kht5Cx145WS/view?usp=share_link"
+              }
               href="/#"
               className="container-icon ml-3 py-5  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 "
             >

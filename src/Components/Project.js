@@ -13,14 +13,14 @@ function Project({ project }) {
   } = project;
 
   return (
-    <div className=" bg-white dark:bg-[#2d015a] rounded-lg shadow-md overflow-hidden grid md:grid-rows-1 md:grid-cols-2 md:gap-4 py-5 my-5">
+    <div className=" bg-white dark:bg-[#2d015a] rounded-lg shadow-md overflow-hidden grid items-center md:grid-rows-1 md:grid-cols-2 md:gap-1 p-2 my-5">
       <div
-        className={`  md:h-auto md:w-full  relative rounded-3xl p-3  ${
+        className={` flex justify-center items-center md:h-auto md:w-full relative rounded-xl aspect-video overflow-hidden ${
           Reverse ? "md:order-last" : ""
-        } `}
+        }`}
       >
         <img
-          className="w-full h-full object-cover  rounded-xl"
+          className="w-full h-full object-cover rounded-xl transition-all duration-300 transform hover:scale-110"
           src={img}
           alt={title}
         />
